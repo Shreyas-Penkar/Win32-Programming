@@ -4,7 +4,7 @@
 int main( )
 {
 	HANDLE hFile;
-	LPCSTR path="C:\\Users\\BraveHero\\opt\\Win32_Prog\\ssup.txt";
+	LPCSTR path="C:\\Users\\BraveHero\\opt\\Win32_Programming\\ssup.txt";
 
 	hFile = CreateFile(
 		path,
