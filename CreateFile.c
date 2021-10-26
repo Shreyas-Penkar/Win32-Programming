@@ -1,10 +1,10 @@
-#include<iostream>
-#include<Windows.h>
+#include<stdio.h>
+#include<windows.h>
 
-int main( )
+void main( )
 {
 	HANDLE hFile;
-	LPCSTR path="C:\\Users\\BraveHero\\opt\\Win32_Programming\\ssup.txt";
+	LPCSTR path="C:\\Users\\BraveHero\\opt\\Win32-Programming\\ssup.txt";
 
 	hFile = CreateFile(
 		path,
@@ -24,5 +24,5 @@ int main( )
 
 	BOOL handle = CloseHandle(hFile);
 	system("PAUSE");
-	return 0;
+	
 }

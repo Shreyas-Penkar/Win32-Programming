@@ -1,7 +1,7 @@
-#include<iostream>
+#include<stdio.h>
 #include<Windows.h>
 
-int main( )
+void main( )
 {
 	HANDLE hFile;
 	BOOL bFile;
@@ -62,5 +62,5 @@ int main( )
 
 	BOOL handle = CloseHandle(hFile);
 	system("PAUSE");
-	return 0;
+	
 }

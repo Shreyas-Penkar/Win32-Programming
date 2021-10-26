@@ -1,8 +1,7 @@
 #include<Windows.h>
-#include<iostream>
-using namespace std;
+#include<stdio.h>
 
-int main()
+void main()
 {
 	BOOL bFile;
 	LPCSTR Oldpath="C:\\Users\\BraveHero\\opt\\Win32_Prog\\hello";
@@ -18,5 +17,5 @@ int main()
 	else
 		printf("success\n");
 	system("PAUSE");
-	return 0;
+	
 }

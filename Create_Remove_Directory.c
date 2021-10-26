@@ -1,8 +1,7 @@
 #include<Windows.h>
-#include<iostream>
-using namespace std;
+#include<stdio.h>
 
-int main()
+void main()
 {
 	BOOL bDir,rDir;
 	LPCSTR path="C:\\Users\\BraveHero\\opt\\Win32_Prog\\sample_dir";
@@ -27,5 +26,5 @@ int main()
 		printf("Removing Directory Success\n");
 
 	system("PAUSE");
-	return 0;
+	
 }
